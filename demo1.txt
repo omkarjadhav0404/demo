@@ -1,0 +1,5 @@
+1. What is EC2 ?
+Ans:-
+
+2. Why we use EC2 ?
+Ans:-
