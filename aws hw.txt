@@ -1,0 +1,92 @@
+AWS Ec2
+59.what is ec2 . wht do we use EC2 service in cloud computing?
+>>>Amazon EC2 is a web service that provides secure, resizable compute capacity in the cloud. 
+It is designed to make web-scale cloud computing easier for developers.
+
+60.Features of Amazon EC2 ?
+>>>Amazon EC2 provides the largest and deepest instance choice to match your workload's needs.
+       You have complete control of your instances including root access 
+
+61.What is Hypervisor ? and its types ?
+>>>A hypervisor is a software that you can use to run multiple virtual machines on a single physical machine
+    1.Type 1 hypervisors directly access underlying machine resources
+    2.Type 2 hypervisors negotiate resource allocation with the operating system, which makes the process slower and less efficient.
+
+62,Where we use hypervisor
+>>>to create and run virtual machines 
+
+63.Steps to create an EC2 instance.
+>>>Step 1: Choose a name of your instance. ...
+       Step 2: Choose an Amazon Machine Image (AMI) . ..
+       Step 3: Choose an Instance Type. ...
+       Step 4: Create a key pair. ...
+       Step 5: Configure Security Group. ...
+       Step 6: Add Storage. ...
+       Step 7: Review and Launch.
+
+64.EC2 Instance state ?
+>>>a.stop b.start c.reboot d.hybernate e.terminate
+
+65.How many types of EC2 Instance-State codes ?
+>>>there are total 8 gamily in EC2 instance and 761+ instance type
+      a.General Purpose Instance
+      b.M4 instance
+      c.M3 instance                                                                                                                                                                                                                                                                                                                                            
+      d.compute optimize instance.                             
+      e.GPU instance
+      f.Memory Optimized Instances
+      g.Storage Optimized Instances: I2 instancesfamily 
+                                                             D2 Instance family                                                                                                                                            
+ 
+66.What is the meaning of server hibernating mode ?
+>>>when EC2 instance is connected with cloudwatch it will go in hybernating state when the alarm is triggered to maintain CPU usage.
+
+67 . What is KMS ?
+>>> it is a manage service which make it easy to create  cryptographic key.
+In cryptography, a key is a string of characters used within an encryption algorithm for altering data so that it appears random.
+
+68.AWS Amazon EC2 Instance types ?
+>>>General Purpose,Compute Optimized, memory Optimized, Storage Optimized, Accelerated Computing ,etc
+
+69.How many types of status checks happen in aws ?
+>>>0/2 hardware , 1/2 software , 2/2 all OK    
+                                                                                                                                 
+70.When we see the global view option in ec2 service ?
+>>>
+
+
+71.When we logged into the cloud account by default why do we always jump into the north virginia region, why it’s most popular ?
+>>>latency, services, availability is high  in this region . it is most popular bcoz it has most no. of AZs.     
+
+72.What are EBS Volumes and its types ?
+>>> EBS is elastic block storage , volumes can be attached and detached,
+  types a.solid state drive [ssd] b.hard disk drive[hdd] c,previous generation volume                                                                                                                                                          
+
+73.Purpose of Using EBS volumes ?
+>>>You can use EBS volumes as primary storage for data that requires frequent updates,
+ such as the system drive for an instance or storage for a database application.
+
+74.How many types of purchasing options do we have in aws ec2 ?
+>>>on-demand , spot , saving , and reserved instance.
+
+75.Difference between AWS AMI Image & AWS Template ?
+>>>                                                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
