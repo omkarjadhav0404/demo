@@ -70,7 +70,22 @@ In cryptography, a key is a string of characters used within an encryption algor
 >>>on-demand , spot , saving , and reserved instance.
 
 75.Difference between AWS AMI Image & AWS Template ?
->>>                                                                       
+>>>       Image                             Template
+1)Image is a copy of software       1) Template is copy of hardware
+Image of instance                          instance
+
+2)We can share image to             2) We cannot share template
+another Aws account                     to another aws account                                                                                          
+
+3) We can copy Image to             3)We cannot copy template to 
+another Region in same                another aws account                                                            
+account                                                                                                                      
+
+4) While launching an instance      4)While launching an instance
+using image we have to                using templute we do not                                                                   
+provide all configurations            have to provide all                                                                
+                                      configuraton but if we 
+                                      want to edit then we can edit                                                                   
 
 
 
