@@ -60,6 +60,7 @@ ans - 1. In the context of cloud computing, a service refers to a specific funct
 
 
 AWS Ec2
+AWS Ec2
 59.what is ec2 . wht do we use EC2 service in cloud computing?
 >>>Amazon EC2 is a web service that provides secure, resizable compute capacity in the cloud. 
 It is designed to make web-scale cloud computing easier for developers.
@@ -131,7 +132,7 @@ In cryptography, a key is a string of characters used within an encryption algor
 >>>on-demand , spot , saving , and reserved instance.
 
 75.Difference between AWS AMI Image & AWS Template ?
->>>       Image                             Template
+>>>        Image                               Template
 1)Image is a copy of software       1) Template is copy of hardware
 Image of instance                          instance
 
@@ -143,17 +144,85 @@ another Region in same                another aws account
 account                                                                                                                      
 
 4) While launching an instance      4)While launching an instance
-using image we have to                using templute we do not                                                                   
-provide all configurations            have to provide all                                                                
-                                      configuraton but if we 
-                                      want to edit then we can edit                                                                   
+using image we have to                 using templute we do not                                                                   
+provide all configurations              have to provide all                                                                
+                                                         configuraton but if we 
+                                                        want to edit then we can edit    
+                                                         
+76.What is NIC & it’s types ?
+>>>NIC (network interface controller) : The NIC is the physical piece of hardware that connects your computer to the network. 
+Type 1. Wired NIC card - Using physical optical fiber cable or copper cable as transmission media to connect to networks.
+Type 2.Wireless NIC card - Compared with wired NIC card, wireless NIC card uses wireless technology to replace cables.
+                           To connect with a wireless local area network (WLAN), the wireless NIC card must work with
+                           the wireless router or wireless AP (Access Point).
+
+77.What is elastic IP ? & WHY were we used ?
+>>>An Elastic IP address is a reserved public IP address that you can assign to any EC2 instance.
+Elastic IP provides you a single IP address that you can associate with different EC2 instances over time.
+
+78.What is the snapshot of why we use it ?
+>>>it is copy of ur data . we use it for backup purpose if there is any collapse in server.
+it is also use to migrate  the data across regions.
+
+79.How can we save money in snapshot costing, if an automated snapshot has been created ?
+>>>
 
 
 
+80.What is the lifecycle manager in snapshot ?
+>>>
 
 
+81.How does the Amazon lifecycle manager work ?
+>>>Amazon Data Lifecycle Manager helps you manage your EBS resources more efficiently. 
 
+82.Difference between Security Group & NACL ?
+>>> NACLs operate at the subnet level and control traffic in and out of a VPC, while Security 
+ Groups operate at the instance level and control traffic to and from individual EC2 instances. 
 
+83.What are NACL in aws and Its types ?
+>>>Network Access Control List (NACL). A NACL is a security layer for your VPC,
+ that acts as a firewall for controlling traffic in and out of one or more subnets.
+Types- ssh ,http ,https ,tcp ,etc ,ipv4 ,ipv6.
+
+84.How many IP Addresses can we attach to the instances ?
+>>>EC2 can have two private IPv4 addresses.
+
+85.How many types of volume states do we have ?
+>>>
+
+86.What is a key pair, and its types ?
+>>>A key pair is a combination of a public key that is used to encrypt data and a private key that is used to decrypt data.
+Types-RSA,  ED25519
+
+87.What is load balancer and its types ?
+>>>Elastic Load Balancing scales your load balancer capacity automatically in response to changes in incoming traffic.
+Types:
+1.classic LB
+2.application LB
+3.Network LB
+4.gateway LB
+
+88.How does the load balancer work in the backend? Can you explain it ?
+>>>when there is a sudden increase in traffic in one ec2-instance  the load balancer distribute thetraffic with another ec2-instances.
+and when the traffic becomes less it will automatically deletes the excess instance.
+
+89.Features of Load Balancers ?
+>>>security , flexible performance , monitoring , scalibility  , optimize load balancing , low global pricing .
+
+90.What is ASG ? & Its types ?
+>>>Auto Scaling groups are collections of Amazon EC2 instances that enable automatic scaling.it is a collection of ec2 instance with similar characteristic .These features help you maintain the health and availability of your applications.
+Types:1.reactive scaling 2.predictive scaling 3.schedule scaling 4.manual scaling 5.dynamic scaling 
+
+91.What is a Health Check ?
+>>>ec3 auto scaling check wheather the instance is unhealthy 
+or healthy , if unhealthy then it should be terminated.
+
+92.What is the threshold ?
+>>>
+
+93.What is the group of LB ?
+>>>
 
 
 
